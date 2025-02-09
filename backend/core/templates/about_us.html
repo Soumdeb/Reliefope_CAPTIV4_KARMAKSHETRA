@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Meet Our Team</h1>
+    <div class="team">
+        {% for creator in creators %}
+            <div class="member">
+                <img src="{% static 'images/'|add:creator.image %}" alt="{{ creator.name }}">
+                <h2>{{ creator.name }}</h2>
+                <p>{{ creator.role }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

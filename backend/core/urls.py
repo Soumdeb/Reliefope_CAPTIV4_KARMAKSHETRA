@@ -8,4 +8,6 @@ urlpatterns = [
     path("donations/", views.donations, name="donations"),
     path("process-donation/", views.process_donation, name="process_donation"),
     path("api/reports/", views.get_disaster_reports, name="get_disaster_reports"),
+    path("about-us/", views.about_us, name="about_us"),
+    path("choose-language/<str:lang>/", views.choose_language, name="choose_language"),
 ]
