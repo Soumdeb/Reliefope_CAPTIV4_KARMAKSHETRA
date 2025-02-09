@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    margin: 0; /* Remove default margins */
+}
+
+header {
+    background-color: #f0f0f0; /* Example header color */
+    padding: 10px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between; /* Align items to start and end */
+  align-items: center;  /* Vertically center items */
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+nav {
+    background-color: #ab2121; /* Example nav color */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 20px; /* Space between buttons */
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+/* ... more styles ... */
+body {
+    margin: 0; /* Important: Remove default body margins */
+    padding: 0;
+    font-family: sans-serif; /* Or your preferred font */
+    background-image: url("disaster.jpg"); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image tiling */
+    color: white; /* Default text color (adjust as needed) */
+    /* Add other body styles as needed */
+}
+
+/* Header Styles (Important!) */
+header {
+    background-color: rgba(169, 38, 38, 0.7); /* Semi-transparent background for header */
+    padding: 1rem 0;
+}
+
+.header-content {
+    /* ... (Your existing header styles) ... */
+}
+
+/* Styles for elements that might be hard to read on the background */
+h1, h2, h3, p {
+    background-color: rgb(169, 14, 14); /* Semi-transparent black background for text */
+    padding: 10px;
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+/* Feature Section Styles */
+.features {
+    padding: 50px;
+    background-color: rgba(169, 38, 38, 0.7); /* Semi-transparent white background */
+}
+
+.feature-container {
+    /* ... (Your existing feature styles) ... */
+}
+
+.feature {
+    background-color: rgba(167, 33, 33, 0.8); /* Semi-transparent white for features */
+}
+
+/* Other sections...  Apply similar semi-transparent backgrounds as needed */
+/* ... other styles ... */
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #f5f5dc; /* Beige background for buttons */
+    border-radius: 5px; /* Add rounded corners (optional) */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav button:hover {
+    background-color: #eee8aa; /* Slightly darker beige on hover */
+}
+
+/* Style for icon containers (if you use separate divs for icons) */
+.icon-container {
+    display: inline-block; /* Or block, depending on layout */
+    width: 30px; /* Adjust as needed */
+    height: 30px;
+    background-color: #f5f5dc; /* Beige for icon background */
+    border-radius: 50%; /* Make icons circular (optional) */
+    margin-right: 5px; /* Space between icon and text */
+    vertical-align: middle; /* Align icon with text */
+    /* ... other icon styles ... */
+}
+
+.icon-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ... more styles ... */
+
+
+
+/* ... more styles ... */
+<nav>
+    <button id="about-btn" style="background-image: url('your-about-icon.png'); background-repeat: no-repeat; background-position: center; padding-left: 30px;">About Us</button>
+    <button id="resources-btn" style="background-image: url('your-resources-icon.png'); background-repeat: no-repeat; background-position: center; padding-left: 30px;">Resources & Awareness</button>
+    <button id="donation-btn" style="background-image: url('your-donation-icon.png'); background-repeat: no-repeat; background-position: center; padding-left: 30px;">Donate</button>
+</nav>
+<nav>
+    <button id="about-btn">
+        <img src="your-about-icon.png" alt="About Us Icon"> About Us
+    </button>
+    <button id="resources-btn">
+        <img src="your-resources-icon.png" alt="Resources Icon"> Resources & Awareness
+    </button>
+    <button id="donation-btn">
+        <img src="your-donation-icon.png" alt="Donation Icon"> Donate
+    </button>
+</nav>
+<link rel="stylesheet" href="path/to/font-awesome.min.css">  <nav>
+    <button id="about-btn">
+        <i class="fas fa-info-circle"></i> About Us  </button>
+    </nav>
+
