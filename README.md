@@ -1,11 +1,13 @@
 # Reliefope_CAPTIV4_KARMAKSHETRA
  Bridging the gap between disaster crises and relief - "RELIEFOPE" (OPEN INNOVATION)
+ 
 🌟 Overview
 Reliefope is a real-time disaster relief and crisis management platform that bridges the gap between volunteers, NGOs, and government agencies to efficiently distribute aid (food, medicine, education materials) and control havoc in disaster-affected regions.
 
 With cutting-edge technology and an intuitive interface, we ensure rapid disaster reporting, emergency assistance, and transparent donations.
 
 🚨 Why Reliefope?
+
 ✅ Real-time Updates on disasters
 ✅ Interactive Google Maps for affected regions
 ✅ Instant SMS Alerts via Twilio
@@ -56,9 +58,10 @@ Django Channels (for real-time updates)
 🔥 Built with passion by:
 
 Soumyadeb Nandy | Backend & API
+Sharmistha Halder | Backend Django
 Divya Mondal | Frontend 
 Srineeja Bhowmick | PPT and contribution
-Sharmistha | Donations & SMS Alerts
+
 
 
 🌟 Why We Should Win This Hackathon?
