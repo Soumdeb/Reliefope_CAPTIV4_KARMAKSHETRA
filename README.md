@@ -58,8 +58,11 @@ Django Channels (for real-time updates)
 🔥 Built with passion by:
 
 Soumyadeb Nandy | Backend & API
+
 Sharmistha Halder | Backend Django
+
 Divya Mondal | Frontend 
+
 Srineeja Bhowmick | PPT and contribution
 
 
