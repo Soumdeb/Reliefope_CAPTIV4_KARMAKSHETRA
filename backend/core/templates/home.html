@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reliefope - Disaster Relief</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Reliefope</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'disaster_reports' %}">Disaster Reports</a></li>
+            <li><a href="{% url 'donations' %}">Donate</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Sign In</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>About Reliefope</h2>
+            <p>A real-time disaster relief platform connecting volunteers, NGOs, and agencies.</p>
+        </section>
+    </main>
+</body>
+</html>
